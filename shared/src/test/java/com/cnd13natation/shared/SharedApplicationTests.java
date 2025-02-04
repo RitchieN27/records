@@ -1,13 +1,13 @@
-package com.cnd13natation.records;
+package com.cnd13natation.shared;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClubRecordsApplicationTests {
+class SharedApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

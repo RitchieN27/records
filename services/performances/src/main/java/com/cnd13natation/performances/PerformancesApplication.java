@@ -1,13 +1,13 @@
-package com.cnd13natation.records;
+package com.cnd13natation.performances;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClubRecordsApplication {
+public class PerformancesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClubRecordsApplication.class, args);
+		SpringApplication.run(PerformancesApplication.class, args);
 	}
 
 }

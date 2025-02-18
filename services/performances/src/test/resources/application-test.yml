@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: performances
+  data:
+    mongodb:
+      host: localhost
+      port: 27018
+      database: records
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

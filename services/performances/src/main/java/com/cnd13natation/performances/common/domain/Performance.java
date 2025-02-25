@@ -1,20 +1,18 @@
 package com.cnd13natation.performances.common.domain;
 
-import lombok.Data;
-
 import java.time.LocalDate;
+import lombok.Data;
 
 @Data
 public class Performance {
 
-    private LocalDate date;
+  private LocalDate date;
 
-    private String event;
+  private String event;
 
-    private String location;
+  private String location;
 
-    private SwimmingType type;
+  private SwimmingType type;
 
-    private PoolSize swimmingPoolSize;
-
+  private PoolSize swimmingPoolSize;
 }

@@ -11,9 +11,8 @@ import org.springframework.test.context.ActiveProfiles;
 @ImportAutoConfiguration(exclude = EmbeddedMongoAutoConfiguration.class)
 class PerformancesApplicationTests {
 
-    @Test
-    void contextLoads() {
-        // Testing database connection for the test
-    }
-
+  @Test
+  void contextLoads() {
+    // Testing database connection for the test
+  }
 }

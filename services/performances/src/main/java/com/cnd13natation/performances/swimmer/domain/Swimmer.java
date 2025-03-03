@@ -8,9 +8,7 @@ import org.springframework.data.annotation.Id;
 @Data
 public class Swimmer {
 
-  @Id private String id;
-
-  private String federalIdentifier;
+  @Id private String federalIdentifier;
 
   private String name;
 

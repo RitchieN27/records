@@ -1,7 +1,7 @@
 package com.cnd13natation.performances.common.dao;
 
 import java.io.Serializable;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,4 +12,4 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface RecordRepository<T, I extends Serializable>
-    extends PagingAndSortingRepository<T, I> {}
+    extends CrudRepository<T, I> {}

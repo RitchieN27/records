@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  *
  * @param <T> The object being manipulated by the repository
  * @param <I> The type of identifiers
+ * @author Ritchie Nithoo
  */
 @Repository
-public interface RecordRepository<T, I extends Serializable>
-    extends CrudRepository<T, I> {}
+public interface RecordRepository<T, I extends Serializable> extends CrudRepository<T, I> {}

@@ -8,3 +8,8 @@ spring:
       database: records
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+records:
+  data:
+    path: "/resources/records.csv"

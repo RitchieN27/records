@@ -7,6 +7,11 @@ import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+/**
+ * Service to manage swimmers
+ *
+ * @author Ritchie Nithoo
+ */
 @Service
 @Slf4j
 public class SwimmerService {
@@ -29,5 +34,10 @@ public class SwimmerService {
 
   public List<Swimmer> getAllByFederalIdentifier(List<String> federalIdentifiers) {
     return this.swimmerRepository.findByFederalIdentifierIn(federalIdentifiers);
+  }
+
+  public void saveInBulk(List<Swimmer> swimmers) {
+    this.swimmerRepository.saveAll(swimmers);
+    log.info("Bulk saved {} swimmers", swimmers.size());
   }
 }

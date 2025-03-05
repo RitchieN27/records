@@ -1,6 +1,10 @@
 package com.cnd13natation.performances.common.rest;
 
-/** API constants */
+/**
+ * API constants
+ *
+ * @author Ritchie Nithoo
+ */
 public class ApiConstants {
 
   public static final String PATH_SWIMMER = "/swimmer";

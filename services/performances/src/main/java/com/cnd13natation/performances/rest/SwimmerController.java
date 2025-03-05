@@ -9,6 +9,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Controller to manage swimmers
+ *
+ * @author Ritchie Nithoo
+ */
 @RestController
 @RequestMapping(ApiConstants.PATH_SWIMMER)
 @Slf4j

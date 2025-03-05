@@ -6,7 +6,11 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.stereotype.Repository;
 
-/** MongoDB repository for <code>Swimmer</code> */
+/**
+ * Repository for {@link Swimmer}
+ *
+ * @author Ritchie Nithoo
+ */
 @Repository
 public interface SwimmerRepository extends RecordRepository<Swimmer, String> {
 

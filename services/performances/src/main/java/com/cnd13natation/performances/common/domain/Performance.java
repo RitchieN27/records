@@ -1,9 +1,12 @@
 package com.cnd13natation.performances.common.domain;
 
+import java.time.Duration;
 import java.time.LocalDate;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class Performance {
 
   private LocalDate date;
@@ -13,6 +16,8 @@ public class Performance {
   private String location;
 
   private SwimmingType type;
+
+  private Duration time;
 
   private PoolSize swimmingPoolSize;
 }

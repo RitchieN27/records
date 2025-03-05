@@ -11,5 +11,4 @@ import org.springframework.stereotype.Repository;
  * @param <I> The type of identifiers
  */
 @Repository
-public interface RecordRepository<T, I extends Serializable>
-    extends CrudRepository<T, I> {}
+public interface RecordRepository<T, I extends Serializable> extends CrudRepository<T, I> {}

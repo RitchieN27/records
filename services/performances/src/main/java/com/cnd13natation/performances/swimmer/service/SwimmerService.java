@@ -30,4 +30,9 @@ public class SwimmerService {
   public List<Swimmer> getAllByFederalIdentifier(List<String> federalIdentifiers) {
     return this.swimmerRepository.findByFederalIdentifierIn(federalIdentifiers);
   }
+
+  public void saveInBulk(List<Swimmer> swimmers) {
+    this.swimmerRepository.saveAll(swimmers);
+    log.info("Bulk saved {} swimmers", swimmers.size());
+  }
 }
